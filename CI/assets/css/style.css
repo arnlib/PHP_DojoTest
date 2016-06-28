@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+/*form {
+	display: inline-block;
+	vertical-align: top;
+}
+*/
+/*#register, #login {
+	margin: 20px 10px;
+	display: inline-block;
+	width: 400px;
+	padding: 40px 10px 5px 10px;
+
+}
+*/
+fieldset>p {
+	margin-top: 10px;
+}
+
+
+#container {
+	width: 700px;
+	display: block;
+	overflow: hidden;
+	margin: 40px;
+	border-collapse: collapse;
+}
+	
+	#container *{
+		border-collapse: collapse;
+	}
+
+	thead {
+		background-color: #999999;
+	}
+
+	thead td:last-child {
+		border-right: none;
+	} 
+
+	table {
+		width: 698px;
+		border: 1px solid black;
+		margin: 10px 0;
+	}
+
+	tbody>tr:nth-child(odd) {
+		background-color: #cccccc;
+	}
+
+	tbody td:last-child {
+		width: 10%;
+		text-align: right;
+		word-spacing: 10px;
+		border-right: none;
+		font-size: 12px;
+	}
+
+	.embiggen {
+		font-size: 18px;
+	}
+
+	td {
+		padding: 4px 6px;
+		border-right: 1px solid black;
+	}
+
+.grp-poking {
+	margin-top: 20px;
+	border: 2px solid black;
+}
+
+.btn-logoff {
+	margin-top: 10px;
+}
